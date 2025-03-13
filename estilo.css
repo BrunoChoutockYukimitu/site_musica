@@ -1,0 +1,76 @@
+/* 1. Remove margens, padding e ajusta box-sizing de todos os elementos */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Normaliza o comportamento das fontes */
+html {
+  font-size: 100%;
+}
+
+body {
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+  color: #000;
+}
+
+/* 3. Remove o estilo padrão de links */
+a {
+  text-decoration: none; /* Remove o sublinhado */
+  color: inherit; /* Herda a cor do elemento pai */
+}
+
+/* 4. Remove estilo de listas */
+ul, ol {
+  list-style: none; /* Remove os pontos ou números das listas */
+}
+
+/* 5. Remove o estilo de tabelas */
+table {
+  border-collapse: collapse; /* Colapsa as bordas das tabelas */
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+/* 6. Remove o estilo de inputs, botões e áreas de texto */
+input, button, textarea {
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* 7. Reset do comportamento das imagens */
+img {
+  max-width: 100%; /* Garante que as imagens não ultrapassem os limites do contêiner */
+  display: block; /* Remove o espaço embaixo das imagens */
+}
+
+.cabecalho{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu{
+    padding-top:17px;
+    padding-bottom: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 40px;
+}
+
+.baner_guitarra{
+    
+}
