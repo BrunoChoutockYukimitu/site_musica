@@ -57,20 +57,17 @@ img {
 .cabecalho{
     background-color: black;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-around;
 }
 .menu{
     padding-top:17px;
     padding-bottom: 17px;
     display: flex;
-    align-items: center;
+    align-items: end;
 }
 
 .logo{
-    margin-right: 40px;
+  margin-right: 100%;
 }
 
-.baner_guitarra{
-    
-}
