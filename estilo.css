@@ -104,10 +104,12 @@ img {
   justify-content: space-around;
 }
 
-.venda {
-  margin-right: auto;
-  margin-left: auto;
+.venda1{
   padding-left: 155px;
-  justify-content: space-around; 
+  justify-content: space-between; 
 }
 
+.venda2{
+  padding-left: 155px;
+  justify-content: space-between; 
+}
