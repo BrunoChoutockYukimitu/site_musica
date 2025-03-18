@@ -70,21 +70,20 @@ img {
 }
 
 .logo {
-  margin-right: 100%;
+  margin-right: auto;
   padding-right: 250.71px;
 }
 
-.plataforma{
-  
-  margin-left: 16.08px;
+.plataforma {
+  margin-left: 16px; 
 }
 
-.menu{
+.menu {
   padding-top: 17px;
   padding-bottom: 17px;
-  display: flex;
+  display: flex;      
+  justify-content: space-between;
 }
-
 .baner_guitarra{
   width: 100%;
 }
@@ -104,12 +103,14 @@ img {
   justify-content: space-around;
 }
 
-.venda1{
-  padding-left: 155px;
-  justify-content: space-between; 
+.venda1, .venda2 {
+  display: flex;   
+  padding-left: 155px; 
+  justify-content: space-around; 
+  flex-wrap: wrap;
 }
 
-.venda2{
-  padding-left: 155px;
-  justify-content: space-between; 
+.venda1 img, .venda2 img {
+  max-width: 30%;            
+  margin: 10px;           
 }
