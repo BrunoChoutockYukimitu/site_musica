@@ -64,53 +64,165 @@ img {
   /* Remove o espaço embaixo das imagens */
 }
 
-.cabecalho {
-  align-items: center;
+.cabecalho{
+display: flex;
   justify-content: space-around;
+    margin-right: 1050px;
+}
+.menu{
+padding-top:17px;
+padding-bottom: 17px;
+padding-top: 17px;
+padding-bottom: 17px;
+display: flex;
+margin-left: 16.08px;
+}
+.logo{
+  align-items: start;
+margin-right: 200%;
 }
 
-.logo {
-  margin-right: auto;
-  padding-right: 250.71px;
-}
-
-.plataforma {
-  margin-left: 16px; 
-}
-
-.menu {
-  padding-top: 17px;
-  padding-bottom: 17px;
-  display: flex;      
-  justify-content: space-between;
-}
+.espaco{
+  padding: 10px;
+  }
+  
 .baner_guitarra{
-  width: 100%;
+width: 100%;
 }
 
 .linha {
-  display: flex;
-  padding-bottom: 16px;
-  padding-left: 81px;
-  padding-bottom: 85px;
-  padding-top: 85px;
+display: flex;
+padding-left: 81px;
+padding-top: 85px;
 }
 
 .categorias {
-  flex-wrap: wrap;
-  color: red;
-  display: block;
-  justify-content: space-around;
+flex-wrap: wrap;
+color: red;
+display: block;
+justify-content: space-around;
 }
 
-.venda1, .venda2 {
-  display: flex;   
-  padding-left: 155px; 
-  justify-content: space-around; 
-  flex-wrap: wrap;
+.venda1 {
+margin-right: 37px;
+margin-left: 37px;
+
 }
 
-.venda1 img, .venda2 img {
-  max-width: 30%;            
-  margin: 10px;           
+.venda2 {
+  margin-right: 37px;
+  margin-left: 37px;
+  }
+
+.linha2{
+display: flex;
+padding-left: 247px;
+}
+
+.titulo{
+  font-family: Raleway;
+  font-size: 18px;
+  margin-top: 23px;
+  margin-left: 84px;
+  margin-right: 84px;
+}
+
+.posicao{
+  display: flex; 
+  justify-content: center;
+  align-items: center;   
+  padding-bottom: 50px;
+  margin-top: 63px;
+  margin-left: 69px;
+  margin-right: 69px;
+}
+
+.ir{
+padding-left: 80px;
+padding-top: 20px;
+padding-right: 80px;
+padding-bottom: 20px;
+font-size: 25px;
+border: 1px #D9D9D9;
+
+}
+
+.texto{
+  margin-left: 20px;
+font-size: 16px
+}
+
+.corpoP{
+display: flex;
+
+}
+
+.promo{
+  font-family: Raleway;
+  font-size: 25px;
+  padding-left: 70px;
+  padding-right: 70px;
+margin-top: 70px;
+}
+
+.text_promo{
+font-family: Poppins;
+font-size: 16px;
+margin-left: 70px;
+
+margin-bottom: 50px;
+padding-right: 70px;
+}
+
+.lado{
+  margin-left: 72px;
+  border: 1px solid black;
+}
+
+
+.botao{
+  padding-left: 40px;
+padding-top: 5px;
+padding-right: 40px;
+padding-bottom: 10px;
+font-size: 25px;
+border: 1px gray;
+background-color: #D9D9D9;
+color: #FFFFFF;
+margin-right: 70px;
+text-decoration: none;
+
+}
+
+.posisao{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  padding-bottom: 22px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.espacos{
+  margin-left: 23px;
+}
+
+.redes{
+  font-family: Raleway;
+  font-size: 25px;
+  padding-left: 70px;
+  padding-right: 70px;
+margin-top: 70px;
+}
+
+.contatos{
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.anotacao{
+  flex-wrap: wrap;
+  font-size: 24px;
+  background-color: #EAEAEA;
 }
