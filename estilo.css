@@ -103,10 +103,13 @@ display: block;
 justify-content: space-around;
 }
 
+.instrumento{
+  background-color: #D9D9D9;
+}
+
 .venda1 {
 margin-right: 37px;
 margin-left: 37px;
-
 }
 
 .venda2 {
@@ -144,7 +147,7 @@ padding-right: 80px;
 padding-bottom: 20px;
 font-size: 25px;
 border: 1px #D9D9D9;
-
+border-radius: 5px;
 }
 
 .texto{
@@ -181,7 +184,7 @@ padding-right: 70px;
 
 
 .botao{
-  padding-left: 40px;
+padding-left: 40px;
 padding-top: 5px;
 padding-right: 40px;
 padding-bottom: 10px;
@@ -191,7 +194,8 @@ background-color: #D9D9D9;
 color: #FFFFFF;
 margin-right: 70px;
 text-decoration: none;
-
+font-family: Raleway;
+border-radius: 5px;
 }
 
 .posisao{
@@ -210,19 +214,88 @@ text-decoration: none;
 .redes{
   font-family: Raleway;
   font-size: 25px;
-  padding-left: 70px;
+justify-content: center;
+display: flex;
+align-items: center;
   padding-right: 70px;
 margin-top: 70px;
 }
 
 .contatos{
   align-items: center;
-  flex-wrap: wrap;
+justify-content: center;
 
+}
+
+.recebimento{
+  display: flex;
+
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
 }
 
 .anotacao{
   flex-wrap: wrap;
-  font-size: 24px;
-  background-color: #EAEAEA;
+  font-size: 16px;
+  background-color: #EAEAEA;  
+  background: cover;
+  width: 477px;
+  height: 40px;
+  margin-right: 16px;
+margin-left: 16px;
+margin-bottom:15px;
+margin-top: 15px;
+padding-left: 10px;
+padding-top: 5px;
+padding-right: 10px;
+padding-bottom: 5px;
+border-radius: 5px;
+}
+
+.recebimento2{
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.anotacao2{
+  flex-wrap: wrap;
+  font-size: 16px;
+  background-color: #EAEAEA;  
+  background: cover;
+  width: 477px;
+  height: 40px;
+  margin-right: 16px;
+margin-left: 16px;
+margin-bottom:47px;
+margin-top: 15px;
+padding-left: 10px;
+padding-top: 5px;
+padding-right: 10px;
+padding-bottom: 5px;
+border-radius: 5px;
+}
+
+.centro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centroB{
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.botaoU{
+padding-left: 40px;
+padding-top: 10px;
+padding-right: 40px;
+padding-bottom: 10px;
+font-size: 25px;
+border: 1px gray;
+background-color: #D9D9D9;
+font-family: Raleway;
 }
