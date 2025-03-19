@@ -90,11 +90,6 @@ margin-right: 200%;
 width: 100%;
 }
 
-.linha {
-display: flex;
-padding-left: 81px;
-padding-top: 85px;
-}
 
 .categorias {
 flex-wrap: wrap;
@@ -117,9 +112,19 @@ margin-left: 37px;
   margin-left: 37px;
   }
 
-.linha2{
-display: flex;
-padding-left: 247px;
+.linha1{
+  display:flex;
+  flex-wrap: wrap;
+  width: 1293px;
+}
+.link{
+  width: 200px;
+}
+.produtos{
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  margin-top: 100px;
 }
 
 .titulo{
@@ -151,7 +156,7 @@ border-radius: 5px;
 }
 
 .texto{
-  margin-left: 20px;
+margin-left: 20px;
 font-size: 16px
 }
 
@@ -181,7 +186,6 @@ padding-right: 70px;
   margin-left: 72px;
   border: 1px solid black;
 }
-
 
 .botao{
 padding-left: 40px;
